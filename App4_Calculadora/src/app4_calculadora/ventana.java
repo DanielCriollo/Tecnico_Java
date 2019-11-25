@@ -186,10 +186,10 @@ public class ventana extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-          int num1= Integer.parseInt(txtNum1.getText());
-       int num2= Integer.parseInt(txtNum2.getText());
+          float num1= Integer.parseInt(txtNum1.getText());
+       float num2= Integer.parseInt(txtNum2.getText());
        
-       int resultado;
+       double resultado;
        resultado=num1/num2;
        
        view_resultado.setText(String.valueOf(resultado));
